@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hitung Upah Karyawan</title>
+</head>
+<body>
+    <h2>Perhitungan Upah Karyawan Honorer Berdasarkan Golongan</h2>
+
+    <form method="post" action="soal3_proses.php">
+        <label>Masukkan jumlah jam kerja selama satu minggu:</label><br>
+        <input type="number" name="jamKerja" required><br><br>
+
+        <label>Pilih golongan karyawan:</label><br>
+        <select name="golongan" required>
+            <option value="">-- Pilih Golongan --</option>
+            <option value="A">Golongan A (Rp 4.000 / jam)</option>
+            <option value="B">Golongan B (Rp 5.000 / jam)</option>
+            <option value="C">Golongan C (Rp 6.000 / jam)</option>
+            <option value="D">Golongan D (Rp 7.500 / jam)</option>
+        </select><br><br>
+
+        <input type="submit" value="Hitung Upah">
+    </form>
+</body>
+</html>
